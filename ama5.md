@@ -1,17 +1,13 @@
 ## What is Middleware?
-
 Middleware is a layer between the request and response that can process or modify them before they reach the view or after the view returns a response.
 
 ## What is SECRET_KEY?
-
 SECRET_KEY is a secret value used by Django for security-related operations, such as signing sessions, CSRF tokens, and password-reset links.
 
 ## What is MessageMiddleware?
-
 MessageMiddleware enables Django's messages framework, which lets you show temporary messages to users, such as "Login successful" or "Invalid password".
 
 ## What is XSS?
-
 XSS (Cross-Site Scripting) is a security attack where an attacker injects malicious JavaScript into a web page that other users can execute.
 
 Django helps prevent XSS by escaping HTML in templates by default.
